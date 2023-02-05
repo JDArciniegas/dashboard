@@ -1,9 +1,10 @@
-.content {
-
+.content{
+  width: 100%;
 }
 
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: red;
 }

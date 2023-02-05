@@ -1,6 +1,7 @@
 @import "navbar.css";
 @import "header.css";
 @import "cards.css";
+@import "main.css";
 
 /* :root{
 
@@ -14,7 +15,6 @@ body, html{
 
 .container{
   display: flex;
-  background-color: yellow;
   grid-template-columns: (2, 2fr);
   grid-template-rows: (2, 1fr);
   height: 100vh;
