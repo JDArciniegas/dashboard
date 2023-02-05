@@ -1,9 +1,47 @@
 nav {
   width: 20vw;
   border-right: 3px blue solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  contain: content;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 40px;
+  font-size: 18px;
+  color: red;
+}
+
+.nav-section {
+  margin-top: 75px;
+  width: 100%;
 }
 
 
-a img{
+/* icons */
+.nav-icon {
+  width: 30px;
+  padding: 5px 10px;
+}
+
+.nav-icon {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+
+
+#dashboard-icon{
   width: 50px;
 }
+
+
+
