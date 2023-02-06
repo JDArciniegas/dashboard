@@ -12,7 +12,7 @@
   width: 100%;
 }
 
-.nav-link{
+.link{
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -31,14 +31,12 @@
 
 
 /* icons */
-.nav-icon {
+.icon {
   width: 30px;
   padding: 5px 10px;
-}
-
-.nav-icon {
   filter: invert(27%) sepia(65%) saturate(28%) hue-rotate(346deg) brightness(154%) contrast(97%);
 }
+
 
 
 

@@ -4,7 +4,30 @@
 
 header {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-e;
   align-items: center;
   border: 3px solid;
+  padding:  20px 30px;
 }
+
+.header-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-section a {
+  margin-left: 100px;
+}
+
+.header-section input{
+  flex-grow: 0.9;
+  font-size: 18px;
+  height: 20px;
+  border-radius: 25px;
+  padding: 5px 15px;
+}
+
+
