@@ -2,13 +2,19 @@
   width: 100%;
 }
 
-main{
-  /* background-color: red; */
-}
-
-.projects-container{
+.content-layout{
   display: grid;
   grid-template-columns: 70% 30%;
 }
+
+article{
+ padding: 20px;
+}
+
+#last-update{
+  margin-top: 100px
+}
+
+
 
 

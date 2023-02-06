@@ -5,6 +5,10 @@
   grid-template-columns: repeat(3, 3fr);
 }
 
+.card {
+  padding: 20px 10px;
+}
+
 .card-top{
   display: inline-flex;
   align-items: center;
