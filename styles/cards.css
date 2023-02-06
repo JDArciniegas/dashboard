@@ -1,0 +1,16 @@
+.cards{
+  padding-right: 25px;
+  display: grid;
+  grid-template-rows: repeat(2, 3fr);
+  grid-template-columns: repeat(3, 3fr);
+}
+
+.card-top{
+  display: inline-flex;
+  align-items: center;
+}
+
+.card-icons{
+  display: flex;
+  justify-content: flex-end;
+}
