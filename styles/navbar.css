@@ -1,10 +1,12 @@
 .nav-container {
-  width: 20vw;
+  width: 15vw;
   /* border-right: 3px blue solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+  color: var(--global-text-color);
+  border-right: 3px double var(--global-text-color)
 }
 
 .nav-item {
@@ -19,7 +21,7 @@
   justify-content: flex-start;
   line-height: 45px;
   font-size: 18px;
-  color: red;
+  color: inherit;
   padding: 0px 10px;
 }
 
@@ -34,7 +36,7 @@
 .icon {
   width: 30px;
   padding: 5px 25px 10px 0px;
-  filter: invert(27%) sepia(65%) saturate(28%) hue-rotate(346deg) brightness(154%) contrast(97%);
+  filter: var(--svg-nav-icon);
 }
 
 

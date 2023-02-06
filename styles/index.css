@@ -4,7 +4,10 @@
 @import "main.css";
 
 :root{
- --navy: #16253B;
+ --global-text-color: #16253B;
+ ----background-color: #EDF5FD;
+  /*SVG colors  */
+  --svg-nav-icon: invert(10%) sepia(19%) saturate(2365%) hue-rotate(178deg) brightness(92%) contrast(90%);
 }
 
 body, html{
@@ -12,6 +15,7 @@ body, html{
   height: 100%;
   width: 100%;
   margin: 0;
+  background-color: var(----background-color);
   }
 
 .container{
