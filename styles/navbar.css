@@ -1,14 +1,15 @@
-nav {
+.nav-container {
   width: 20vw;
-  border-right: 3px blue solid;
+  /* border-right: 3px blue solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  contain: content;
+  overflow: hidden;
 }
 
 .nav-item {
   list-style: none;
+  width: 100%;
 }
 
 .nav-link{
@@ -16,13 +17,14 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  line-height: 40px;
+  line-height: 45px;
   font-size: 18px;
   color: red;
 }
 
 .nav-section {
-  margin-top: 75px;
+  margin-bottom: 75px;
+  padding: 0px;
   width: 100%;
 }
 
@@ -34,13 +36,7 @@ nav {
 }
 
 .nav-icon {
-  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
-}
-
-
-
-#dashboard-icon{
-  width: 50px;
+  filter: invert(27%) sepia(65%) saturate(28%) hue-rotate(346deg) brightness(154%) contrast(97%);
 }
 
 
