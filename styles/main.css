@@ -1,14 +1,13 @@
 .content {
-  width: 100%;
+  width: 95%;
 }
 
 .content-layout{
   display: grid;
   grid-template-columns: 70% 30%;
 }
-
-article{
- padding: 20px;
+  article {
+  width: 90%;
 }
 
 #last-update{

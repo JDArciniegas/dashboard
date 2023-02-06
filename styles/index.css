@@ -2,11 +2,10 @@
 @import "header.css";
 @import "cards.css";
 @import "main.css";
-@import "buttons.css";
 
-/* :root{
-
-} */
+:root{
+ --navy: #16253B;
+}
 
 body, html{
   box-sizing: border-box;

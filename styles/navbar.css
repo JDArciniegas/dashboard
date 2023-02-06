@@ -24,7 +24,7 @@
 }
 
 .nav-section {
-  margin-bottom: 75px;
+  margin: 25px 0px;
   padding: 0px;
   width: 100%;
 }
@@ -33,7 +33,7 @@
 /* icons */
 .icon {
   width: 30px;
-  padding: 5px 10px;
+  padding: 5px 25px 10px 0px;
   filter: invert(27%) sepia(65%) saturate(28%) hue-rotate(346deg) brightness(154%) contrast(97%);
 }
 
@@ -42,11 +42,6 @@
 
 
 
-/*
-<div id="content-nav">
-            <img src="images/create.svg" class="icon" alt="notification">
-            <img src="images/upload.svg" class="icon" alt="notification">
-            <img src="images/share.svg" class="icon" alt="notification">
-          </div> */
+
 
 

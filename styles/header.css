@@ -3,11 +3,11 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: 3px solid;
-  padding:  20px 30px;
+  width: 95%;
 }
 
 .header-section{
+  margin-top: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,11 +16,6 @@ header {
 
 .header-section:last-of-type {
   margin-top: 30px;
-  justify-content: flex-end;
-}
-
-.header-section img:last-of-type {
-  margin-left: 300px;
 }
 
 .header-section input{
@@ -30,6 +25,13 @@ header {
   border-radius: 25px;
   padding: 5px 15px;
 }
+
+.content-nav {
+ width: 15%;
+ display: inline-flex;
+ justify-content: space-around;
+}
+
 
 
 

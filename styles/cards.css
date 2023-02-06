@@ -1,17 +1,21 @@
 .cards{
   padding-right: 25px;
   display: grid;
-  grid-template-rows: repeat(2, 3fr);
-  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 3fr);
+  grid-template-columns: repeat(2, 3fr);
+  gap: 15px
 }
 
 .card {
-  padding: 20px 10px;
+  padding: 20px 10px 20px 0px;
+  border: 3px solid black;
+  padding: 5px 25px;
 }
 
 .card-top{
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .card-icons{
