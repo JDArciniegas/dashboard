@@ -4,20 +4,26 @@
 @import "main.css";
 
 :root {
+  --background: #EEEEEE;
   --white: #FFFFFF;
-  --purple: #360568;
-  --lila: #AD64F7;
+  /* card-border */
+  --border: red;
   /*SVG colors  */
   --svg-nav-icon: invert(9%) sepia(31%) saturate(5912%) hue-rotate(260deg) brightness(117%) contrast(117%);
 }
 
 body,
 html {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
   height: 100%;
   width: 100%;
   margin: 0;
   background: var(--white);
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
 }
 
 .container {

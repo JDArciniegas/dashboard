@@ -1,21 +1,16 @@
 .content {
-  width: 100%;
+  width: 85vw;
 }
-main{
-  padding: 10px 25px;
+
+.content h3 {
+  padding: 15px 0;
 }
+
 
 .content-layout {
   display: grid;
   grid-template-columns: 70% 30%;
-  background: var(--purple);
   border-radius: 5px 0px 0px 0px;
-}
-
-article {
-  width: 90%;
-}
-
-#last-update {
-  margin-top: 100px
+  background-color: var(--background);
+  padding-left: 25px;
 }
