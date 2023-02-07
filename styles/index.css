@@ -3,27 +3,24 @@
 @import "cards.css";
 @import "main.css";
 
-:root{
-  --blue: #001427;
-  --green: #708D81;
-  --red: #BF0603;
-  --viper-red: #8D0801;
-  --white: #ECF7FD;
-  --yellow: #F4D58D;
+:root {
+  --white: #FFFFFF;
+  --purple: #360568;
+  --lila: #AD64F7;
   /*SVG colors  */
-  --svg-nav-icon: invert(7%) sepia(29%) saturate(4615%) hue-rotate(185deg) brightness(93%) contrast(105%);
-  /* --svg-content-icon:  invert(51%) sepia(41%) saturate(4041%) hue-rotate(309deg) brightness(99%) contrast(90%); */
+  --svg-nav-icon: invert(9%) sepia(31%) saturate(5912%) hue-rotate(260deg) brightness(117%) contrast(117%);
 }
 
-body, html{
+body,
+html {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
   margin: 0;
-  background-color: var(--whtie);
-  }
+  background: var(--white);
+}
 
-.container{
+.container {
   display: flex;
   grid-template-columns: (2, 2fr);
   grid-template-rows: (2, 1fr);
