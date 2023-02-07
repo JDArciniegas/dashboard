@@ -4,10 +4,15 @@
 @import "main.css";
 
 :root{
- --global-text-color: #16253B;
- ----background-color: #EDF5FD;
+  --blue: #001427;
+  --green: #708D81;
+  --red: #BF0603;
+  --viper-red: #8D0801;
+  --white: #ECF7FD;
+  --yellow: #F4D58D;
   /*SVG colors  */
-  --svg-nav-icon: invert(10%) sepia(19%) saturate(2365%) hue-rotate(178deg) brightness(92%) contrast(90%);
+  --svg-nav-icon: invert(7%) sepia(29%) saturate(4615%) hue-rotate(185deg) brightness(93%) contrast(105%);
+  /* --svg-content-icon:  invert(51%) sepia(41%) saturate(4041%) hue-rotate(309deg) brightness(99%) contrast(90%); */
 }
 
 body, html{
@@ -15,7 +20,7 @@ body, html{
   height: 100%;
   width: 100%;
   margin: 0;
-  background-color: var(----background-color);
+  background-color: var(--whtie);
   }
 
 .container{
