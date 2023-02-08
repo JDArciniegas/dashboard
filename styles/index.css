@@ -5,13 +5,17 @@
 
 :root {
   --background: #D0CAC8;
-  --white: #F7F4F3;
-  --blue: #151A29;
+  --white: #EBEBEB;
+  --blue: #1D3249;
+  --keppel: #16B69E;
+  --text-content: #858585;
   /* border */
   --border: 5px double var(--blue);
-  --box-shadow: 4px 4px 10px -5px var(--blue);
+  --box-shadow: 2px 2px 8px -5px var(--background);
   /*SVG colors  */
-  --svg-nav-icon: invert(9%) sepia(31%) saturate(5912%) hue-rotate(260deg) brightness(117%) contrast(117%);
+  --svg-icon-hover: invert(96%) sepia(0%) saturate(2%) hue-rotate(144deg) brightness(86%) contrast(94%);
+  --svg-nav-icon: invert(6%) sepia(8%) saturate(4970%) hue-rotate(188deg) brightness(93%) contrast(90%);
+  --svg-content-icon: invert(50%) sepia(93%) saturate(387%) hue-rotate(121deg) brightness(96%) contrast(90%);
 }
 
 body,
@@ -20,12 +24,15 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: var(--white);
+  background: var(--blue);
+  font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
+  font-weight:700;
+  color: var(--white);
 }
 
 .container {
@@ -35,3 +42,5 @@ h1, h2, h3, h4 {
   height: 100%;
   width: 100%;
 }
+
+

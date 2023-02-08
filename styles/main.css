@@ -3,7 +3,11 @@
 }
 
 .content h3 {
-  padding: 15px 0;
+  padding: 25px 0;
+}
+
+main h4, article h4{
+  color: var(--blue);
 }
 
 
@@ -11,6 +15,6 @@
   display: grid;
   grid-template-columns: 70% 30%;
   border-radius: 5px 0px 0px 0px;
-  background-color: var(--background);
+  background-color: var(----blue);
   padding-left: 25px;
 }
