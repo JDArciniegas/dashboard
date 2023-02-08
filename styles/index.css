@@ -4,10 +4,12 @@
 @import "main.css";
 
 :root {
-  --background: #EEEEEE;
-  --white: #FFFFFF;
-  /* card-border */
-  --border: red;
+  --background: #D0CAC8;
+  --white: #F7F4F3;
+  --blue: #151A29;
+  /* border */
+  --border: 5px double var(--blue);
+  --box-shadow: 4px 4px 10px -5px var(--blue);
   /*SVG colors  */
   --svg-nav-icon: invert(9%) sepia(31%) saturate(5912%) hue-rotate(260deg) brightness(117%) contrast(117%);
 }

@@ -7,12 +7,12 @@
 
 .card {
   padding: 10px 5px 10px 0px;
-  border-bottom: 5px double var(--border);
-  border-right: 5px double var(--border);
+  border-bottom: var(--border);
+  border-right: var(--border);
   border-radius: 0 20px 20px 20px;
   padding: 5px 25px;
   background-color: var(--white);
-  box-shadow: 4px 4px 10px -5px var(--border)
+  box-shadow: 4px 4px 10px -5px var(--blue);
 }
 
 .card-top {
@@ -37,6 +37,9 @@ article {
   font-size: 14px;
   border-radius: 10px;
   background-color: var(--white);
+  border-bottom: var(--border);
+  border-right: var(--border);
+  box-shadow: var(--box-shadow);
 }
 
 .update {
